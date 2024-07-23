@@ -1,0 +1,53 @@
+/* Responsive Styles */
+@media only screen and (max-width: 992px) {
+    .navbar-custom .nav-wrapper .right {
+        display: none;
+    }
+
+    .navbar-custom .sidenav-trigger {
+        display: block;
+    }
+
+    .h-section h4 {
+        font-size: 1.5rem;
+    }
+
+    .security-title {
+        font-size: 1.5rem;
+    }
+
+    .ratings-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rating-item {
+        margin-bottom: 20px;
+    }
+
+    .cta-section .h-cta {
+        font-size: 1.5rem;
+    }
+
+    .cta-section .btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-banner {
+        font-size: 1.2rem;
+    }
+
+    .h-section h4 {
+        font-size: 1.2rem;
+    }
+
+    .security-title {
+        font-size: 1.2rem;
+    }
+
+    .ratings-section {
+        padding: 10px 0;
+    }
+}
